@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\CategoryStore;
 use App\Models\Category;
 use Illuminate\Http\Request;
+use App\Http\Requests\PostStore;
+use App\Http\Requests\CategoryStore;
 
 class CategoryController extends Controller
 {
@@ -70,7 +71,7 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(PostStore $request, Category $category)
     {
         //
     }

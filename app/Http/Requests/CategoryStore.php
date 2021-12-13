@@ -24,7 +24,7 @@ class CategoryStore extends FormRequest
     public function rules()
     {
         return [
-            'category'=>'required|min:4|max:50',
+            'category'=>'required|min:4|max:150',
             'description_category'=>'required|min:3|max:250',
         ];
     }

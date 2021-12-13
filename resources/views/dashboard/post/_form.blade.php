@@ -2,7 +2,7 @@
 @include('dashboard.partials.validation-errors')
 <div class="form-group">
 <input class="form-control" type="text" name="publication" id=""
-placeholder="publication" value="{{ old("publication", $post-> publication) }}">
+placeholder="publication" value="{{old("publication", $post-> publication) }}">
 </div>
 
 <div class="form-group">
